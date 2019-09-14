@@ -1,0 +1,189 @@
+
+a{
+  text-decoration: none !important;
+  color: #f3f0f0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #f3f0f0; }
+        a:hover {
+          color: white;
+          text-decoration: none; }
+          
+          .top-left {
+            padding: 0px;
+            margin: 12px; }
+
+           .top-left ul li {
+            display: inline; 
+              padding: 12px;
+}       
+         .top-left ul li a {
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            font-family: raleway;
+            
+            padding: 1px 2px; 
+          }
+      .top-left ul li a:hover {
+            color: #ff0707;
+            text-decoration: none; 
+          }
+                     .sosial-img:hover{
+                       transform: rotate(-360deg);
+                       transition: transform .4s;
+                     }       
+                .market-header {
+                 position: relative;
+                 z-index: 9999;
+                 }      
+                 .fixed-menu{
+                   position: fixed;                  
+                   width: 100%;
+                   opacity: 0.8;
+                   background-color: rgb(201, 180, 180);
+                   height: 70px;
+                 }
+                 
+                 #info-section{
+                    background-image: url(https://www.iheartreykjavik.net/wp-content/uploads/2013/07/shopping.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    height: 550px;
+                    background-attachment:fixed; 
+                 
+                    
+                   }
+                   #info-section .info-middle{
+                     position: absolute;
+                     left: 50%;
+                     text-align: center;
+                     top: 50%;
+                     transform: translate(-50%,-50%)
+                   }      
+                   #info-section .info-middle p{
+                       font-size: 40px;
+                       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                       margin-top: 40px;
+                   }
+                    .market-header .navbar-inverse {
+                      background-color: transparent;
+                      border-color: transparent; }
+                    
+                    .market-header.navbar
+                     {  margin: 0px;
+                      padding: 0px; }
+                   
+                      .menu-a {
+                          font-weight: 700;
+                          color: #666666; }                     
+                    .mainDrop a{
+                      color:#666666;
+                    }          
+                    .mainDrop:hover .dropdown-menu{
+                      display: block
+                    }
+
+
+/* 
+                    <kategory> */
+                    .side{
+                      width: 250px;
+               
+                  }
+                   #kategory .menu a{
+                      background: #3d3d3d;
+                      color: #FFF;
+                      padding: 10px;
+                      display: block;
+                      border-bottom: 1px solid #666;
+                      transition: 0.5s all;
+                   
+                  }
+                  #kategory  .menu a:hover{
+                      background: #666;
+                      padding: 10px 0 10px 20px;
+                  }
+                  #kategory   .menu li:first-child a,
+                  #kategory   .menu-list .menu.drop li:first-child a{
+                      border-radius: 3px 3px 0 0; 
+                  }
+                  #kategory     .menu li:last-child a,
+                  #kategory    .menu-list .menu.drop li:last-child a{
+                      border-radius:  0 0 3px 3px; 
+                      border-bottom: 0;
+                  }
+                  #kategory   .menu-list .menu.drop li a{
+                      border-radius: 0;
+                      border-bottom: 1px solid #666;
+                  
+                  } 
+                  #kategory    .menu-list{
+                      position: relative;
+                  }
+                  #kategory   .menu-drop{
+                    position: absolute;   
+                    z-index: 50;   
+                    left: 100%;
+                    border-left: 10px solid rgb(212, 169, 28);
+                    top: -9999em;
+                    opacity: 0;
+                    width: 100%;
+                        padding-left: 0px;
+                    transition: 0.5s opacity;
+                  
+                  }                
+                  #kategory   .menu-list:hover .menu-drop{
+                      opacity: 1;
+                      top: 0;
+                  }                  
+                  #kategory    .menu-list::after{
+                      content: " ";
+                      position: absolute;
+                      border: 5px solid;
+                      border-color: transparent transparent transparent #eee;
+                      top:1em;
+                      right: 0.7em;  
+                      transition: 0.5s;
+                  }
+                  #kategory    .menu-list:hover::after{
+                      transform: scaleX(-1)
+                  } 
+                  .discount {
+                    text-align:  center
+                  }
+                /*  <kategory> */
+
+
+                    
+                  footer .footer-links ul {
+                    margin: 0;
+                    padding: 0; }
+                    footer .footer-links ul li {
+                      list-style: none;
+                      transition: .3s; }
+                      footer .footer-links ul li:hover {
+                        transform: translateX(2px); }
+                      footer .footer-links ul li a {
+                        text-decoration: none;
+                        color:black; }
+                        footer .footer-links img{
+                          width: 35px;
+                          border-radius: 15px; }
+                        footer .footer-links ul li a:hover {
+                          text-decoration: none;
+                         }
+                  footer .footer-line {
+                    background-color: #f3f0f0; }
